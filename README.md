@@ -1,5 +1,5 @@
 # Algo-Trading
-We have developed a project focused on optimizing stock trading using an ensemble of algorithms, including KNN, Decision Tree, Random Forest, and SVM. The algorithmic model is designed to maximize profits by predicting trading signals through a momentum strategy based on various technical indicators.
+We have developed a project focused on optimizing stock trading using an ensemble of algorithms, including **KNN, Decision Tree, Random Forest, and SVM.** The algorithmic model is designed to maximize profits by predicting trading signals through a momentum strategy based on various technical indicators.
 
 Our dataset comprises 10 years of stock details for five prominent stocks: RELIANCE, HDFC, ITC, INFOSYS, and TCS. By analyzing this data, we can predict the trend of the market index, which then serves as the basis for setting specific trading rules:
 
@@ -8,4 +8,4 @@ Our dataset comprises 10 years of stock details for five prominent stocks: RELIA
     If the next day's trend is Downtrend, the decision is to SELL.
     If a SELL decision already exists, we will HOLD.
 
-With these rules in place, we have calculated the return of the strategy. Our analysis resulted in an impressive accuracy of 94.2%, demonstrating that our model is capable of minimizing losses compared to actual returns calculated based on the previous day's closing price. This indicates the potential effectiveness of our approach in stock trading and its ability to yield better results than traditional methods.
+With these rules in place, we have calculated the return of the strategy. Our analysis resulted in an impressive accuracy of **94.2%**, demonstrating that our model is capable of minimizing losses compared to actual returns calculated based on the previous day's closing price. This indicates the potential effectiveness of our approach in stock trading and its ability to yield better results than traditional methods.
